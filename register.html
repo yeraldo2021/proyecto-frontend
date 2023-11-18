@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App</title>
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <script src="/src//user/primary.js"></script>
+
+    <script src="/src/user/validate_user.js" type="module"></script>
+
+    <div>
+      <header>
+        <nav
+          class="navbar navbar-expand-lg bg-body-tertiary"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">Inicio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              ></ul>
+              <div class="d-flex" role="search">
+                <div id="content_user" class="content_user"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main id="main_content">
+        <div class="content_products">
+          <h1>Register product</h1>
+          <div>
+            <div id="data_product" class="row product_detail">
+              <form id="form_register" class="col-6">
+                <div class="form-group">
+                  <label class="form-label" for="">Titulo</label>
+                  <input
+                    class="form-control mb-3"
+                    type="text"
+                    name=""
+                    id="reg_title"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="">Descripción</label>
+                  <input
+                    class="form-control mb-3"
+                    type="text"
+                    name=""
+                    id="reg_description"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="">Imagen (url)</label>
+                  <input
+                    class="form-control mb-3"
+                    type="url"
+                    name=""
+                    id="reg_image"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="">Precio</label>
+                  <input
+                    class="form-control mb-3"
+                    type="number"
+                    name=""
+                    id="reg_price"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="">Tipo publicación</label>
+                  <select class="form-select mb-3" id="reg_type_v">
+                    <option value="VENTA">VENTA</option>
+                    <option value="COMPRA">COMPRA</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Tipo artículo</label>
+                  <select class="form-select mb-3" id="reg_type_a">
+            
+                    <option value="COCHES">COCHES</option>
+                    <option value="MOTOS">MOTOS</option>
+                    <option value="MOTOR Y ACCESORIOS">MOTOR Y ACCESORIOS</option>
+                    <option value="MODA Y ACCESORIOS">MODA Y ACCESORIOS</option>
+                    <option value="INMOBILIARIA">INMOBILIARIA</option>
+                    <option value="TV, AUDIO Y FOTO">TV, AUDIO Y FOTO</option>
+                    <option value="MOVILES Y TELEFONIA">MOVILES Y TELEFONIA</option>
+                    <option value="INFORMATICA Y ELECTRONICA">INFORMATICA Y ELECTRONICA</option>
+                    <option value="DEPORTE Y OCIO">DEPORTE Y OCIO</option>
+                    <option value="BICICLETAS">BICICLETAS</option>
+                    <option value="CONSOLAS Y VIDEOJUEGOS">CONSOLAS Y VIDEOJUEGOS</option>
+                    <option value="HOGAR Y JARDIN">HOGAR Y JARDIN</option>
+                    <option value="ELECTRODOMESTICOS">ELECTRODOMESTICOS</option>
+                    <option value="CINE, LIBROS Y MUSICA">CINE, LIBROS Y MUSICA</option>
+                    <option value="NIÑOS Y BEBES">NIÑOS Y BEBES</option>
+                    <option value="COLECCIONISMO">COLECCIONISMO</option>
+                    <option value="CONSTRUCCION Y REFORMAS">CONSTRUCCION Y REFORMAS</option>
+                    <option value="INDUSTRIA Y AGRICULTURA">INDUSTRIA Y AGRICULTURA</option>
+                    <option value="EMPLEO">EMPLEO</option>
+                  </select>
+                </div>
+                <div class="form-group mb-2">
+                  <button class="btn btn-primary">Registrar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalErrors"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title" id="exampleModalLabel">Error</h6>
+          </div>
+          <div class="modal-body text-danger">
+            Ocurrio un error al procesar la información
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              ok
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalSuccess"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title" id="exampleModalLabel">Success</h6>
+          </div>
+          <div class="modal-body text-success">
+            Hola Registro correcto redirigiendo...
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/products/products.js" type="module"></script>
+  </body>
+</html>

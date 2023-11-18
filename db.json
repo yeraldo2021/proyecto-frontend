@@ -1,0 +1,156 @@
+{
+    "users": [
+     
+      {
+        "username": "gera",
+        "password": "$2b$10$8EmFllRAtyUk4V4MXAKF9.EqUCTg3DmCEcl0g/soMU1GHEZHdpqze",
+        "id": 7
+      }
+    ],
+    "products": [
+      {
+        "title": "4x4 Hyundai Tucson",
+        "description": "Hyundai Tucson año 2023",
+        "image": "https://caribbeanautopr.com/wp-content/uploads/2023/02/Hyundai-Tucson-2023.jpg",
+        "price": "30000",
+        "type_publication": "VENTA",
+        "type": "COCHES",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T02:35:57.798Z",
+        "id": 1
+      },
+      {
+        "title": "Yamaha mt09 2023",
+        "description": "Yamaha mt09 modelo 2023",
+        "image": "https://c.ndtvimg.com/2020-11/a4fqmqlo_2021-yamaha-mt09-sp_625x300_12_November_20.jpg",
+        "price": "10000",
+        "type_publication": "VENTA",
+        "type": "MOTOS",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T04:12:08.616Z",
+        "id": 2
+      },
+      {
+        "title": "Correa mazda 2023",
+        "description": "Repuesto ORIGINAL MAZDA",
+        "image": "https://autoplanet.pe/wp-content/uploads/2021/04/P30115909C.jpg",
+        "price": "50",
+        "type_publication": "VENTA",
+        "type": "MOTOR Y ACCESORIOS",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T04:21:55.175Z",
+        "id": 3
+      },
+      {
+        "title": "Se busca lentes como la imagen",
+        "description": "busco lentes de sol urgente",
+        "image": "https://solarismexico.com/cdn/shop/articles/Lentes_de_sol_Guess.jpg?v=1668613716",
+        "price": "100",
+        "type_publication": "COMPRA",
+        "type": "MODA Y ACCESORIOS",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T04:34:22.919Z",
+        "id": 4
+      },
+      {
+        "title": "Departamento en Lima,Perú",
+        "description": "se vende departamento en miraflores con vista al mar",
+        "image": "https://images.adsttc.com/media/images/5954/c1f4/b22e/38be/e300/0100/newsletter/2015_DEPTO_JSMH_SMA_PHOTO_by_Paul_Rivera__03.jpg?1498726896",
+        "price": "250000",
+        "type_publication": "VENTA",
+        "type": "INMOBILIARIA",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T04:40:49.784Z",
+        "id": 5
+      },
+      {
+        "title": "TV smart xiaomi",
+        "description": "tv samart xiaomi fabricado en la republica de china",
+        "image": "https://home.ripley.com.pe/Attachment/WOP_5/2018295640229/2018295640229_2.jpg",
+        "price": "500",
+        "type_publication": "VENTA",
+        "type": "TV, AUDIO Y FOTO",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T04:45:48.203Z",
+        "id": 6
+      },
+      {
+        "title": "Iphone 14 pro max",
+        "description": "iphone 14 pro nuevo sin cargador",
+        "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907.jpg.og.jpg?202310101624",
+        "price": "1200",
+        "type_publication": "VENTA",
+        "type": "MOVILES Y TELEFONIA",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T04:50:45.471Z",
+        "id": 7
+      },
+      {
+        "title": "Apple MacBook Pro 16",
+        "description": "Apple MacBook Pro 16 nuevo en caja",
+        "image": "https://photos5.appleinsider.com/gallery/52635-105565-16-inch-MacBook-Pro-with-M2-Max-xl.jpg",
+        "price": "2500",
+        "type_publication": "VENTA",
+        "type": "INFORMATICA Y ELECTRONICA",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T04:56:13.210Z",
+        "id": 8
+      },
+      {
+        "title": " Tabla De Surf Klimax",
+        "description": " Tabla De Surf Klimax nueva",
+        "image": "https://i.blogs.es/ab7111/varial/450_1000.jpg",
+        "price": "400",
+        "type_publication": "VENTA",
+        "type": "DEPORTE Y OCIO",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T05:01:24.417Z",
+        "id": 9
+      },
+      {
+        "title": "Mountain bike Sunpeed One",
+        "description": "Una MTB rodado 29 con cuadro de aluminio.",
+        "image": "https://biciclub.com/wp-content/uploads/2021/10/IMG_0347-1-960x600.jpg",
+        "price": "5000",
+        "type_publication": "VENTA",
+        "type": "BICICLETAS",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T05:04:52.273Z",
+        "id": 10
+      },
+      {
+        "title": "Busco PlayStation 1",
+        "description": "PlayStation 1",
+        "image": "https://img.europapress.es/fotoweb/fotonoticia_20200929104834_1200.jpg",
+        "price": "3000",
+        "type_publication": "COMPRA",
+        "type": "CONSOLAS Y VIDEOJUEGOS",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T05:10:42.083Z",
+        "id": 11
+      },
+      {
+        "title": "Sofa linea uno",
+        "description": "Muebles 3 cuerpos sofia",
+        "image": "https://s3.amazonaws.com/imagenes-sellers-mercado-ripley/2021/09/15181448/SOF.COB_.3.jpg",
+        "price": "600",
+        "type_publication": "VENTA",
+        "type": "HOGAR Y JARDIN",
+        "user_id": 7,
+        "userId": 7,
+        "updatedAt": "2023-11-18T05:15:58.682Z",
+        "id": 12
+      }
+    ]
+  }
